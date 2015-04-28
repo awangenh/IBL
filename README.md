@@ -14,7 +14,7 @@ Alternatively, you can improve it and send me a copy of your efforts...
 Background:
 
 The software, in various incarnations, has been used since 2002 at
-the INE 5443 Reconhecimento de Padrıes course (Pattern Recognition) 
+the INE 5443 Reconhecimento de Padr√µes course (Pattern Recognition) 
 held in the 7th semester of the undergrad CS Program at UFSC. It was 
 intended to help teaching basic symbolic PR techniques on the example
 of traditional ML algorithms, such as the IB family. 
@@ -34,7 +34,7 @@ The Sigma of the probability distribution used to generate the training patterns
 
 2. Training with IBL
 
-Presently you can train using IB1, IB2 or IB3 (IB4 and IB5 wouldn¥t make sense for a domain of 2 classes with only two variables). 
+Presently you can train using IB1, IB2 or IB3 (IB4 and IB5 wouldn¬¥t make sense for a domain of 2 classes with only two variables). 
 
 The IB version can be chosen with the radio button in the middle of the interface.  Learned patterns will appear as dots of the chosen dotsize in the middle drawing area.  
 
@@ -54,9 +54,9 @@ Stepwise - when in IB3, simulation halt after acceptable pattern and dropping (w
 
 Verbose - a log of the training steps is transcribed to the right text field (transcript). Will slow down considerably tthe training.
 
-Allow dropping - bad classifiers are allowed to be dropped. Dropping PIs and FIs are set to use z = 0.75. This value can be changed on the corresponding sliders.
+Allow dropping - bad classifiers are allowed to be dropped. Dropping PIs and FIs are set to use z = 0.90. This value can be changed on the corresponding sliders.
 
-Accept n=0 - you can choose if patterns of the CD that were ever used before to classify something are acceptable as classification references for learning new patterns. Since their PIs would be infinite due to n=0, it is, in theory possible, but that is a question of interpretation. 
+Accept n=0 - you can choose if patterns of the CD that were never used before to classify something are acceptable as classification references for learning new patterns. Since their PIs would be infinite due to n=0, it is, in theory possible, but that is a question of interpretation. 
 
 Policy for Non Acceptance - sets the policy to be used when no acceptable pattern was found. There are the following policies:
 - first - most similar pattern is chosen (can introduce bias)
@@ -91,7 +91,7 @@ http://www.inf.ufsc.br/~awangenh
 ================================================
 Useful links for the newbie in IBL/ML:
 
-S¡ LISBOA, F. O. S. ; NICOLETTI, M. C. . A FamÌlia de Algoritmos Instance-Based Learning (IBL). 1997. (RelatÛrio de pesquisa) http://www.inf.ufsc.br/~patrec/bibliografia/Ibl.pdf
+S√Å LISBOA, F. O. S. ; NICOLETTI, M. C. . A Fam√≠lia de Algoritmos Instance-Based Learning (IBL). 1997. (Relat√≥rio de pesquisa) http://www.inf.ufsc.br/~patrec/bibliografia/Ibl.pdf
 
 David W. Aha, Dennis F. Kibler, Marc K. Albert. Instance-Based Learning Algorithms. Machine Learning 01/1991; 6(1):37-66. DOI:10.1023/A:1022689900470. https://www.researchgate.net/publication/220343419_Instance-Based_Learning_Algorithms
 
